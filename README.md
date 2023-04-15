@@ -19,10 +19,14 @@ Heap异常是指HeapBufferleak、HeapBufferOverflow、UseAfterFree、DoubleFree�
 - 以小组为单位参赛，最多三人一个小组，且小组成员是来自同一所高校的本科生或研究生（2023年春季学期或之后毕业的大一~大四的本科生或研究生）
 - 如学生参加了多个项目，参赛学生选择一个自己参加的项目参与评奖
 - 请遵循“2023全国大学生操作系统比赛”的章程和技术方案要求
-项目导师
-杨冬东 冯雪松
+
+**项目导师**
+
+杨冬东 
 - email: yangdongdong@xiaomi.com  
-           fengxuesong@xiaomi.com
+
+冯雪松
+- fengxuesong@xiaomi.com
 
 **难度**
 
