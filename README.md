@@ -24,8 +24,8 @@ Heap异常是指HeapBufferleak、HeapBufferOverflow、UseAfterFree、DoubleFree�
 杨冬东 
 - email: yangdongdong@xiaomi.com  
 
-冯雪松
-- fengxuesong@xiaomi.com
+原勇健
+- yuanyongjian@xiaomi.com
 
 ### 难度
 
@@ -55,6 +55,8 @@ Heap异常是指HeapBufferleak、HeapBufferOverflow、UseAfterFree、DoubleFree�
 **第二题**
 
 实现在适当的时机触发对HeapBufferleak检测，查阅相关资料，尽量准确的总结内存泄露特征，对每种特征加权，权值大于某个阈值意味着该内存泄露的概率较高，对泄露概率较高的内存输出预警信息，预警信息包含的内容参考特征4。特征及其权值最好能够简单的配置，可由应用场景来进行不同的组合。
+提示:内存泄漏自动检测，可以在特征权值达到一定阈值之后触发，为了捕获内存泄漏位置，可以在系统重启后或kill掉某个怀疑的进程后启动检测。
+
 
 **第三题**
 
